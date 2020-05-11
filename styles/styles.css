@@ -63,9 +63,13 @@ h2{
     flex-basis: 50%;
 }
 
+#earth{
+    margin-top: 6%;
+}
 #section-top{
     flex-grow: 0.15;
 }
+
 #section-middle{
     flex-grow: 1;
 }
