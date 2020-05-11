@@ -14,6 +14,10 @@ img{
     padding: 8px;
 }
 
+ol>li{
+    margin-bottom: 8%;
+}
+
 #section-top, #section-middle, #section-bottom {
   background: #d8c596;
   font-size: 1.2rem;
@@ -60,13 +64,13 @@ h2{
 }
 
 #section-top{
-    flex-grow: 0;
+    flex-grow: 0.15;
 }
 #section-middle{
     flex-grow: 1;
 }
 #section-bottom{
-    flex-grow: 0;
+    flex-grow: 0.15;
 }
 
 .arrow{
@@ -96,4 +100,16 @@ h2{
         opacity: 0;
         transform: rotate(45deg) translate(10px,10px);
     }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .content{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+    }
+    #section-top, #section-middle, #section-bottom {
+        width: 100%;
+      }
 }
