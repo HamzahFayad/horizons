@@ -92,6 +92,45 @@ h2{
     animation: animate 2s infinite;
 }
 
+aside {
+    margin: auto;
+    margin-top: .5%;
+    background: #f1dca7;
+    border: 0.5px solid #998c6a;
+}
+
+#form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+input{
+    width: 30%;
+    margin: .2% auto;
+    padding: 3px;
+    border: 2px solid #998c6ad0;
+    font-size: 1.1em;
+}
+
+textarea{
+    width: 35%;
+    margin: .5% auto;
+    padding: 3px;
+    border: 2px solid #998c6ad0;
+    font-size: 1.1em;
+}
+
+button{
+    width: 12%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 3px;
+    border: none;
+    font-size: 1.1em;
+    background: #584b29d0;
+}
+
 @keyframes animate {
     0%{
         opacity: 0;
