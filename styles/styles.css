@@ -113,7 +113,7 @@ textarea {
   padding: 5px;
   font-size: 1.1em;
   border: 0px solid;
-  border-radius: 25px;
+  border-radius: 18px;
   text-align: center;
   box-shadow: 2px 2px #998c6a;
 }
@@ -130,7 +130,7 @@ textarea {
 }
 
 button {
-  width: 12%;
+  width: 18%;
   margin: auto;
   margin-bottom: 2%;
   padding: 3px;
@@ -165,5 +165,12 @@ button {
   #section-middle,
   #section-bottom {
     width: 100%;
+  }
+  input, textarea{
+    width: 95%;
+    margin: 1% auto;
+  }
+  button{
+    width: 50%;
   }
 }
