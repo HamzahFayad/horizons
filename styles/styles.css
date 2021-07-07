@@ -113,8 +113,8 @@ textarea {
   padding: 5px;
   font-size: 1.1em;
   border: 0px solid;
-  border-radius: 18px;
-  text-align: center;
+  border-radius: 4px;
+  text-align: justify;
   box-shadow: 2px 2px #998c6a;
 }
 
@@ -127,6 +127,7 @@ input {
 textarea {
   width: 35%;
   margin: 0.5% auto;
+  resize: none;
 }
 
 button {
@@ -137,8 +138,12 @@ button {
   border: none;
   font-size: 1.1em;
   background: #1f6330d0;
-  border-radius: 25px;
+  border-radius: 4px;
+  cursor: pointer;
   color: #ffffff;
+}
+button:hover {
+  background: rgba(20, 65, 31, 0.816);
 }
 
 @keyframes animate {
@@ -166,11 +171,12 @@ button {
   #section-bottom {
     width: 100%;
   }
-  input, textarea{
+  input,
+  textarea {
     width: 95%;
     margin: 1% auto;
   }
-  button{
+  button {
     width: 50%;
   }
 }
